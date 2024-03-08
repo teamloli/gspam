@@ -44,7 +44,7 @@ HEADER = {
     }
 
 # After 4.8K+ requests google will ask you to fill a captcha if you are not using proxy.
-PROXYS = [144.217.101.242:3129]
+PROXYS = ['144.217.101.242:3129']
 # PROXYS = ['144.217.101.242:3129', '192.41.71.204:3128', '192.41.13.71:3128', '104.154.143.77:3128']
 
 
