@@ -21,11 +21,11 @@ SPAM_COUNT: Change this to increase spam count
 """
 
 MAX_WORKERS = 63 # Change this value to increase the speed of spam. Don't go beyond 500.
-SPAM_COUNT = 100000 # Change this to increase spam count
+SPAM_COUNT = 1000 # Change this to increase spam count
 
-URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfoemQg90qTmA4ps9yh-YU46_9xDcMzBILr-wSnPpyXVr9BLA/formResponse'
+URL = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYytx4Hs4Mx69bAu5kfzGU6EcsDiKhRmipSKyFvOvwBL7e7Q/formResponse'
 
-DATA = 'entry.2005620554=kushal&entry.1045781291=kushal%40gmail.com&entry.1166974658=1234567890&fvv=1&partialResponse=%5Bnull%2Cnull%2C%224688203165610129769%22%5D&pageHistory=0&fbzx=4688203165610129769'
+DATA = 'entry.1328153896=slurd', 'entry.877803157=slurd' 
 
 REFERER = 'https://docs.google.com/forms/d/e/1FAIpQLSfoemQg90qTmA4ps9yh-YU46_9xDcMzBILr-wSnPpyXVr9BLA/viewform?fbzx=4688203165610129769'
 
@@ -44,7 +44,7 @@ HEADER = {
     }
 
 # After 4.8K+ requests google will ask you to fill a captcha if you are not using proxy.
-PROXYS = []
+PROXYS = [144.217.101.242:3129]
 # PROXYS = ['144.217.101.242:3129', '192.41.71.204:3128', '192.41.13.71:3128', '104.154.143.77:3128']
 
 
